@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+body{
+    padding-top: 48px;
+}
+
+nav {
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    line-height: 50px;
+    text-decoration: none;
+    color: #999;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 18px;
+    font-family: 'Roboto', sans-serif;
+
+
+
 .col-1 {
     float: left;
     width: 8.33333333%;
@@ -73,4 +105,10 @@
     display: table;
     content: "";
     clear: both;
+}
+
+.navbar{
+    float: left;
+    width: 100%; 
+
 }
