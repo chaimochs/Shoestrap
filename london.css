@@ -1,0 +1,17 @@
+
+div {
+    border: 1px solid red;
+  }
+
+  .nav{
+    background-color: #e0d8d8;
+    position: fixed;
+  }
+
+ 
+
+.col-1 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
